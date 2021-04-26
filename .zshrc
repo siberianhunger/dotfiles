@@ -59,7 +59,7 @@ function pipin {
 alias pipup="pip install --upgrade pip wheel setuptools"
 
 alias venv='python3 -m venv venv && . venv/bin/activate'
-alias venvk='python3 -m venv venv && pipup && pipin requirements-dev.txt && . venv/bin/activate'
+alias kvenv='python3 -m venv venv && . venv/bin/activate && pipup && pipin requirements-dev.txt'
 
 #docker docker-compose
 function dcu(){
